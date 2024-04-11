@@ -1,0 +1,61 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/shop-icon-1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Shop CSS</title>
+  </head>
+  <body>
+
+    <a href="index.html" class="store-logo">
+      <i class='bx bxs-store-alt logo'></i>
+      <h1>ShopCSS</h1>  
+    <a/>
+
+    <div class="background-wanted-products desactive">
+    </div>
+    <div class="list-wanted-products desactive">
+      
+    </div>
+    <div>
+
+      <div class="options-shop-container">
+
+        <input type="search" name="searched-word" placeholder="Ingrese el item a buscar">
+        <select name="products" title="Products" class="category-products">
+          <option value="value1" selected>Todos</option>
+          <option value="value2">Frutas</option>
+        </select>
+        <button type="button" class="shop-container desactive"><i class='bx bx-shopping-bag shopping-bag'></i> Compras</button>
+        
+      </div>
+
+      <section class="list-products">
+
+        <div class="product-card" product="0">
+
+          <img src="/hola.gif" class="product-0" alt="Prueba p :v" width="300px" height="200px">
+          <h3 class="product-0" >Carita Feliz</h3>
+          <p>Precio: S/. <span class="product-0">12</span></p>
+          <button type="button" class="add-product" product="0"><i class='bx bx-plus add'></i>Enviar al carro</button>
+
+        </div>
+        <div class="product-card" product="1">
+
+          <img src="/yosoyese.jpg" class="product-1" alt="Prueba p :v" width="300px" height="200px">
+          <h3 class="product-1">Carita Feliz</h3>
+          <p>Precio: S/. <span class="product-1">12</span></p>
+          <button type="button" class="add-product" product="1"><i class='bx bx-plus add'></i>Enviar al carro</button>
+
+        </div>
+      </section>
+
+    </div>
+    <script type="module" src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </body>
+</html>
